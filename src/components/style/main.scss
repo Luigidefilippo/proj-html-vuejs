@@ -1,0 +1,12 @@
+@use './partials/globalReset';
+@use './partials/colors';
+@import 'node_modules/@fortawesome/fontawesome-free/css/all.css';
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    max-width: 1300px;
+    margin: 0 auto;
+}
