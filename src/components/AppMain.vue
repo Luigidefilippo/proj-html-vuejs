@@ -12,6 +12,9 @@ export default {
 </script>
 
 <template>
+    
+    <mainNavbar/>
+    <mainSection1/>
 
 </template>
 
