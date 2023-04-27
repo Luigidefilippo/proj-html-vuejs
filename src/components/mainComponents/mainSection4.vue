@@ -1,24 +1,43 @@
 <script>
-import cards4 from './cards/cards4.vue';
-
+import cardS4 from './cards/cardS4.vue'
 export default {
+    data() {
+        return {
+            cardElements: [
+                {
+                    "image": "../../../public/avada-movers-serviceonephoto-final-600x383.jpg",
+                    "title": "Two Man Teams",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                    "buttonText": "read more"
+                },
+                {
+                    "image": "../../../public/avada-movers-serviceonephoto-final-600x383.jpg",
+                    "title": "We Do All The Lifting",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                    "buttonText": "read more"
+                },
+                {
+                    "image": "../../../public/avada-movers-serviceonephoto-final-600x383.jpg",
+                    "title": "Coast To Coast",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
+                    "buttonText": "read more"
+                },
+            ]
+        }
+    },
     components: {
-        cards4,
+        cardS4,
     }
 }
-
 </script>
-
 <template>
     <section class="s4">
         <div class="container">
-            <h6>WE ARE A PROFESSIONAL</h6>
+            <h6>we are a professional</h6>
             <h4>Full-Service Solution</h4>
-            <div class="cards">
-                <cards4 />
-                <cards4 />
-                <cards4 />
-            </div>
+            <ul class="cards">
+                <cardS4 v-for="(element, i) in cardElements" :key="i" :cardS4Elements="element" />
+            </ul>
         </div>
     </section>
 </template>
@@ -26,18 +45,25 @@ export default {
 <style lang="scss">
 @use '../style/partials/colors' as*;
 
-
 .s4 {
+    height: 1100px;
     text-align: center;
-    margin: 100px;
+    padding: 0 30px;
     .container {
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 25px;
+        h4 {
+            margin-bottom: 25px;
+        }
         .cards {
-            margin-top: 100px;
             display: flex;
             justify-content: center;
             gap: 100px;
         }
     }
 }
-
 </style>

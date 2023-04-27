@@ -17,10 +17,11 @@ export default{
 
 <style lang="scss">
 @use '../style/partials/colors' as*;
+
 .s3 {
     text-align: center;
-    height: 400px;
-    background-color: $section3Bg;
+    height: 600px;
+    background-color: $sectionBg;
     .container {
         width: 600px !important;
         height: 100%;
