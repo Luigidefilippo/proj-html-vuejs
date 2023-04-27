@@ -35,15 +35,27 @@ export default {
 </template>
 
 <style lang="scss">
-.containerS1 {
- background-color: red;
+@use './style/partials/colors' as*;
+@use './style/partials/globalReset' as*;
 
-    .top-right{
-        background-color: yellow;
-        
-        .center{
-            background-color: brown;
+.containerS1 {
+    background-image: url(../../public/avada-movers-homeherobackground-final.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    height: 690px;
+    padding: 0 30px;
+    .container {
+        height: 100%;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        .top-right {
+            position: absolute;
+            top: 0;
+            right: 0;
         }
     }
 }
+
 </style>

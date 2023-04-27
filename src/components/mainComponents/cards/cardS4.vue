@@ -10,8 +10,7 @@ export default {
 </script>
 
 <template>
-
- <li class="photoS4">
+    <li class="photoS4">
         <img :src="cardS4Elements.image" alt="">
         <div class="cardText">
             <h5>{{ cardS4Elements.title }}</h5>
@@ -19,26 +18,21 @@ export default {
             <a href="#" class="button">{{ cardS4Elements.buttonText }}</a>
         </div>
     </li>
-
 </template>
 
 <style lang="scss">
 @use '../../style/partials/colors' as*;
 
-.photoS4{
-    background-color: $sectionBg;
-}
-
 li {
     padding: 20px;
-    img {
-        margin-bottom: 20px;
-    }
-    .cardText {;
+    .cardText {
+        background-color: $sectionBg;
         display: flex;
         flex-direction: column;
         align-items: center;
+        gap: 25px;
         line-height: 30px;
+        padding: 30px 20px;
     }
 }
 </style>
