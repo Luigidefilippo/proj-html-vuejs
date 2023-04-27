@@ -1,11 +1,17 @@
 <script>
 import mainNavbar from './mainComponents/mainNavbar.vue';
 import mainSection1 from './mainComponents/mainSection1.vue';
+import mainSection2 from './mainComponents/mainSection2.vue';
+import mainSection3 from './mainComponents/mainSection3.vue';
 
 export default {
     components: {
         mainNavbar,
         mainSection1,
+        mainSection2,
+        mainSection3
+
+
     }
 }
 
@@ -15,9 +21,11 @@ export default {
 <div class="containerS1">
         <div class="container">
             <mainNavbar class="top-right" />
-            <mainSection1 class="center" />
+            <mainSection1 />
         </div>
     </div>
+    <mainSection2/>
+    <mainSection3/>
 
 </template>
 
