@@ -17,7 +17,6 @@ export default {
 @use '../style/partials/colors' as*;
 
 .bannerS1{
-   background-color: rgba(255, 255, 255, 0.447);
     text-align: center;
     display: flex;
     flex-direction: column;
