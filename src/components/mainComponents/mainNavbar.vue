@@ -71,7 +71,6 @@ export default{
 
 nav {
     height: 105px;
-    padding: 0 30px;
 
     .container {
         height: 100%;

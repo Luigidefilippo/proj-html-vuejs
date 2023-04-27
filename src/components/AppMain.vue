@@ -12,12 +12,15 @@ export default {
 </script>
 
 <template>
-    
-    <mainNavbar/>
-    <mainSection1/>
+ <div class="containerS1">
+        <div class="container">
+            <mainNavbar />
+            <mainSection1 />
+        </div>
+    </div>
 
 </template>
 
 <style lang="scss">
-    
+
 </style>
