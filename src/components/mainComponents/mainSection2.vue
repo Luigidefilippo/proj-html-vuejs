@@ -27,5 +27,9 @@ export default{
     color: white;
     font-size: 18px;
     text-transform: uppercase;
+    transition: background-color 0.3s ease-in-out;
+}
+.section2:hover{
+    background-color: lighten($denim, 15%);
 }
 </style>

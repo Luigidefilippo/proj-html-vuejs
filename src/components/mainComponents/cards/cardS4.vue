@@ -10,8 +10,8 @@ export default {
 </script>
 
 <template>
-    <li class="photoS4">
-        <img :src="cardS4Elements.image" alt="">
+    <li>
+        <img class="photoS4" :src="cardS4Elements.image" alt="">
         <div class="cardText">
             <h5>{{ cardS4Elements.title }}</h5>
             <p>{{ cardS4Elements.description }}</p>
@@ -34,5 +34,10 @@ li {
         line-height: 30px;
         padding: 30px 20px;
     }
+
+}
+.photoS4:hover{
+    transform: scale(1.1);
+    opacity:0.8;
 }
 </style>

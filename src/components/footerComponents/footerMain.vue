@@ -25,7 +25,7 @@ export default{
                         <li><a href="#">Free Quote</a></li>
                     </ul>
                 </div>
-                <div class="col">
+                <div class="col list">
                     <h5>recent posts</h5>
                     <ul>
                         <li><a href="#">&raquo; Heading Out To College?</a></li>
@@ -78,12 +78,26 @@ export default{
                     display: flex;
                     flex-direction: column;
                     color: $smallTitle;
-                    padding: -10px;
+                    
+                    li {
+                        transition: color 0.3s ease-in-out;
+                    }
+                    li:hover {
+                        color: $lima;
+                    }
+                }
+            }
+            .list {
+                li:hover {
+                    color: $lima;
+                    padding-left: 1em;
+                    text-indent: -1em;
+                }
+
                 }
             }
         }
     }
-}
 .limefooter{
     height: 20px;
     background-color: $lima;

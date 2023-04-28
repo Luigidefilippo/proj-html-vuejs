@@ -37,7 +37,6 @@ export default {
             <h4>Full-Service Solution</h4>
             <ul class="cards">
                 <cardS4 v-for="(element, i) in cardElements" :key="i" :cardS4Elements="element" />
-                <img src="" alt="">
             </ul>
         </div>
     </section>
