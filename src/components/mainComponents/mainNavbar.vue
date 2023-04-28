@@ -71,9 +71,11 @@ export default{
 
 nav {
     height: 105px;
+    width: 100%;
 
     .container {
         height: 100%;
+        width: 100%;
         display: flex;
         align-items: center;
         justify-content: space-between;

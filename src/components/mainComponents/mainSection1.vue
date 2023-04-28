@@ -28,9 +28,9 @@ export default {
         font-size: 16px;
         text-transform: uppercase;
     }
-    h4 {
+    h3 {
         color: $title;
-        font-size: 64px;
+        font-size: 58px;
         text-transform: uppercase;
     }
 }

@@ -11,13 +11,13 @@ export default {
                     "buttonText": "read more"
                 },
                 {
-                    "image": "../../../public/avada-movers-serviceonephoto-final-600x383.jpg",
+                    "image": "../../../public/avada-movers-servicetwophoto-final-600x383.jpg",
                     "title": "We Do All The Lifting",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
                     "buttonText": "read more"
                 },
                 {
-                    "image": "../../../public/avada-movers-serviceonephoto-final-600x383.jpg",
+                    "image": "../../../public/avada-movers-servicethreephoto-final-600x383.jpg",
                     "title": "Coast To Coast",
                     "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac consectetur augue. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.",
                     "buttonText": "read more"
@@ -37,6 +37,7 @@ export default {
             <h4>Full-Service Solution</h4>
             <ul class="cards">
                 <cardS4 v-for="(element, i) in cardElements" :key="i" :cardS4Elements="element" />
+                <img src="" alt="">
             </ul>
         </div>
     </section>

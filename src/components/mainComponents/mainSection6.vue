@@ -13,12 +13,12 @@ import cardS6 from './cards/cardS6.vue';
                     "description": "”Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
                 },
                 {
-                    "image": "../../../public/avada-movers-johndoe-final-200x200.jpg",
+                    "image": "../../../public/avada-movers-janedoe-final-200x200.jpg",
                     "title": "Jane Doe",
                     "description": "”Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
                 },
                 {
-                    "image": "../../../public/avada-movers-johndoe-final-200x200.jpg",
+                    "image": "../../../public/avada-movers-johnsmith-final-200x200.jpg",
                     "title": "John Smith",
                     "description": "”Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lectus dolor, aliquet sed maximus et, vestibulum pulvinar leo. Vivamus varius pretium fermentum.”",
                 },
